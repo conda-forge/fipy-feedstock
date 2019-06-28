@@ -1,6 +1,6 @@
 {% set name = "FiPy" %}
-{% set version = "3.2" %}
-{% set sha256 = "4b7d0deb718bcc24882dd46bec48564ff2fe85b1f84851bd0225ff1893cc4a35" %}
+{% set version = "3.3" %}
+{% set sha256 = "690855826d0a3359891b1c273104b1866d221a9229e2f2c81347256ee8db9b0b" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script:
     - 2to3 --write .  # [py3k]
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
