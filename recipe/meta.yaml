@@ -1,6 +1,6 @@
 {% set name = "FiPy" %}
 {% set version = "3.3" %}
-{% set sha256 = "29c428c29ced002f02af81672fb09c78d6e17b0db4def922d2367bd3c6bb4f85" %}
+{% set sha256 = "bd6731d99fb3003f3a1ef402f520385d4d21afc5de45fc1c6b7b5da7d45de858" %}
 
 package:
   name: {{ name|lower }}
