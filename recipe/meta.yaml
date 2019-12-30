@@ -21,10 +21,10 @@ requirements:
     - pip
     - numpy
     - scipy
-    - blas ==3.8.0-8 # [win]
-    - libblas ==3.8.0-8 # [win]
-    - libcblas ==3.8.0-8 # [win]
-    - liblapack ==3.8.0-8 # [win]
+    - blas ==3.8.0-8  # [win]
+    - libblas ==3.8.0-8  # [win]
+    - libcblas ==3.8.0-8  # [win]
+    - liblapack ==3.8.0-8  # [win]
   run:
     - python
     - numpy
