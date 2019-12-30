@@ -10,7 +10,7 @@ source:
   sha256: 702f1dffc5799e47d879383bbf66bf4f1baa92e40e6241dc9e59845b6ff4df2c
 
 build:
-  number: 0
+  number: 1
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -26,9 +26,10 @@ requirements:
     - numpy
     - scipy
     - gmsh <4.0   # [not (win and (py2k or x86))]
+    - mpi4py      # [not win]
+    - petsc4py    # [not win]
     - pysparse    # [not py3k]
     - pytrilinos  # [not win and not py3k]
-    - mpi4py      # [not win and not py3k]
     - matplotlib <3.0  # [py2k]
     - matplotlib >3.0  # [py3k]
     - mayavi
