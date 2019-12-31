@@ -34,6 +34,7 @@ requirements:
     - scipy ==1.2.1 py27h4c3ab11_0  # [win and py2k]
     - scipy  # [not (win and py2k)]
     - gmsh <4.0   # [not (win and (py2k or x86))]
+    - mpich       # [not win]
     - mpi4py      # [not win]
     - petsc4py    # [not win]
     - pysparse    # [not py3k]
