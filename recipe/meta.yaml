@@ -35,7 +35,7 @@ requirements:
     - petsc4py    # [not win]
     - pysparse    # [not py3k]
     - pytrilinos  # [not win and not py3k]
-    - matplotlib ==2.0.0b4 np111py27_0  # [win and py2k]
+    - matplotlib ==2.2.1  # [win and py2k]
     - matplotlib <3.0  # [not win and py2k]
     - matplotlib >3.0  # [py3k]
     - mayavi ==4.5.0 np111py27_vc9_1  # [win and py2k]
