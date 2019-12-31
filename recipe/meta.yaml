@@ -38,7 +38,7 @@ requirements:
     - mpi4py      # [not win]
     - petsc4py    # [not win]
     - pysparse    # [not py3k]
-    - pytrilinos  # [not win and not py3k]
+    - pytrilinos ==12.10.1 py27h7127e17_2  # [not win and not py3k]
     - matplotlib <3.0  # [py2k]
     - matplotlib >3.0  # [py3k]
     - mayavi  # [not (win and py2k)]
