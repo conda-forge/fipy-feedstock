@@ -40,7 +40,7 @@ requirements:
     - matplotlib ==2.0.2  # [win and py2k]
     - matplotlib <3.0  # [not win and py2k]
     - matplotlib >3.0  # [py3k]
-    - mayavi ==4.5.0 np111py27_vc9_3  # [win and py2k]
+    - mayavi ==4.5.0 py27_vc9_3  # [win and py2k]
     - mayavi  # [not (win and py2k)]
     - freetype ==2.6.3 vc9_1  # [win and py2k]
 
