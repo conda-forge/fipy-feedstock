@@ -19,7 +19,7 @@ requirements:
     - future
     - python
     - pip
-    - numpy ==1.14.6 py27hab51878_1201  # [win and py2k]
+    - numpy ==1.11.3 py27hab51878_1207  # [win and py2k]
     - numpy  # [not (win and py2k)]
     - scipy ==1.2.1 py27h4c3ab11_0  # [win and py2k]
     - scipy  # [not (win and py2k)]
@@ -28,7 +28,7 @@ requirements:
     - liblapack ==3.8.0 8_mkl  # [win and py2k]
   run:
     - python
-    - numpy ==1.14.6 py27hab51878_1201  # [win and py2k]
+    - numpy ==1.11.3 py27hab51878_1207  # [win and py2k]
     - numpy  # [not (win and py2k)]
     - scipy ==1.2.1 py27h4c3ab11_0  # [win and py2k]
     - scipy  # [not (win and py2k)]
