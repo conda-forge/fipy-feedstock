@@ -37,7 +37,7 @@ requirements:
     - petsc4py    # [not win]
     - pysparse    # [not py3k]
     - pytrilinos  # [not win and not py3k]
-    - 'matplotlib[channel=conda-forge/label/testing]' ==2.0.0  # [win and py2k]
+    - 'matplotlib[channel=conda-forge/label/testing,version=2.0.0]'  # [win and py2k]
     - matplotlib <3.0  # [not win and py2k]
     - matplotlib >3.0  # [py3k]
     - mayavi ==4.5.0 py27_vc9_3  # [win and py2k]
