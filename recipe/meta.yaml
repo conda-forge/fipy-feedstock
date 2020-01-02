@@ -27,7 +27,7 @@ requirements:
     - future
     - mpich       # [unix]
     - mpi4py      # [unix]
-    # - pysparse    # [unix]
+    - pysparse    # [unix]
     # - petsc4py    # [unix]
     # For now, lets try to avoid pytrilinos, it seems stale
     # - pytrilinos  # [unix and py2k]
