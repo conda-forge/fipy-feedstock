@@ -22,18 +22,19 @@ requirements:
     # - numpy
     # - scipy
   run:
-    - future
     - python
-    - {{ pin_compatible('numpy') }}
+    # - {{ pin_compatible('numpy') }}
+    - numpy
     - scipy
-    - gmsh <4.0   # [not (win and (py2k or x86))]
+    - matplotlib
+    - future
     - mpich       # [unix]
     - mpi4py      # [unix]
     - petsc4py    # [unix]
     - pysparse    # [unix]
     - pytrilinos  # [unix and py2k]
-    - matplotlib
-    - mayavi  # [not (win and py2k)]
+    - mayavi      # [not (win and py2k)]
+    - gmsh <4.0   # [not (win and (py2k or x86))]
 
 test:
   imports:
