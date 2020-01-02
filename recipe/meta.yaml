@@ -34,7 +34,12 @@ requirements:
     - pysparse    # [unix]
     - pytrilinos  # [unix and py2k]
     - mayavi      # [not (win and py2k)]
-    - gmsh <4.0   # [not (win and (py2k or x86))]
+    # I don't like this pinning, it is saying that 
+    # modern packages should depend on some crusty
+    # version of gmsh
+    # can you create a PR to gmsh asking for version
+    # 3 to be maintained?
+    # - gmsh <4.0   # [not (win and (py2k or x86))]
 
 test:
   imports:
