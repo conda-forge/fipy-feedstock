@@ -32,7 +32,8 @@ requirements:
     - mpi4py      # [unix]
     - petsc4py    # [unix]
     - pysparse    # [unix]
-    - pytrilinos  # [unix and py2k]
+    # For now, lets try to avoid pytrilinos, it seems stale
+    # - pytrilinos  # [unix and py2k]
     - mayavi      # [not (win and py2k)]
     # I don't like this pinning, it is saying that 
     # modern packages should depend on some crusty
