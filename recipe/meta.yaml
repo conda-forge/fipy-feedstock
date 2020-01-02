@@ -31,7 +31,7 @@ requirements:
     - petsc4py    # [unix]
     - pytrilinos  # [unix and py2k]
     - mayavi      # [not (win and py2k)]
-    - gmsh
+    - gmsh        # [not (win and py2k)]
 
 test:
   imports:
