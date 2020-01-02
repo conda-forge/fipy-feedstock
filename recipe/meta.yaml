@@ -28,7 +28,7 @@ requirements:
     - mpich       # [unix]
     - mpi4py      # [unix]
     - pysparse    # [py2k]
-    # - petsc4py    # [unix]
+    - petsc4py    # [unix]
     # For now, lets try to avoid pytrilinos, it seems stale
     # - pytrilinos  # [unix and py2k]
     # - mayavi      # [not (win and py2k)]
