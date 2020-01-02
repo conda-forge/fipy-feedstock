@@ -16,9 +16,9 @@ build:
 
 requirements:
   host:
-    # - future
     - python
     - pip
+    - future
     # - numpy
     # - scipy
   run:
