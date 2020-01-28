@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/usnistgov/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: e9faf4ebcf3848ce017bba511db8004b8906b71c5832952798c6eb831b95882e
+  sha256: 71468d21563d7dbee0bb14ecc3944497ace5ba0b61084199bedd40fe0d80fd2e
 
 build:
   number: 0
