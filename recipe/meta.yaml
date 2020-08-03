@@ -43,7 +43,7 @@ requirements:
   # https://github.com/enthought/mayavi/issues/916
   run_constrained:
     - gmsh <4.0   # [not (win and py2k)]
-    - traitsui <7.0.0  # [not (win and py2k)]
+    - traitsui <7.0.0  # [py2k]
 
 test:
   imports:
