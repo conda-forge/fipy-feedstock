@@ -36,8 +36,14 @@ requirements:
   # So we leave it as an optional dependency should the users want
   # to isntall it.
   # As it is old, it might have some strange pinnings.
+  #
+  # [traitsui 7.0.0 dropped py2k support](https://github.com/enthought/traitsui/releases/tag/7.0.0),
+  # but mayavi feedstock evidently lacks adequate pinnings
+  # https://stackoverflow.com/questions/61739135/issue-with-dependencies-importerror-cannot-import-name-getfullargspec
+  # https://github.com/enthought/mayavi/issues/916
   run_constrained:
     - gmsh <4.0   # [not (win and py2k)]
+    - traitsui <7.0.0  # [not (win and py2k)]
 
 test:
   imports:
