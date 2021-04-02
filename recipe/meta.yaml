@@ -45,7 +45,7 @@ test:
 
 about:
   home: http://www.ctcms.nist.gov/fipy
-  license: NIST public domain
+  license: NIST-PD
   license_file: LICENSE.rst
   summary: A finite volume partial differential equation solver using Python
   description: |
