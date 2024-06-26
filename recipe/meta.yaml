@@ -29,7 +29,7 @@ requirements:
     - mpich       # [unix]
     - mpi4py      # [unix]
     - pysparse    # [py2k]
-    - petsc4py < 3.21   # [unix]
+    - petsc4py <3.21   # [unix]
     - pytrilinos  # [unix and py2k]
     - mayavi      # [not (win and py2k)]
   # fipy still doesn't take full advantage of gmsh 4.0, an optional package
