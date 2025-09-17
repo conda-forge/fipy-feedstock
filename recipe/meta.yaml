@@ -18,14 +18,15 @@ requirements:
   host:
     - python
     - pip
-    - future
+    - setuptools
+    - versioneer[toml]
   run:
     - python
     - numpy
     - scipy
     - matplotlib-base
-    - future
     - packaging
+    - typer
     - mpich       # [unix]
     - mpi4py      # [unix]
     - pysparse    # [py2k]
