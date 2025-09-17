@@ -22,6 +22,7 @@ requirements:
     - versioneer
   run:
     - python
+    - setuptools
     - numpy
     - scipy
     - matplotlib-base
@@ -30,8 +31,7 @@ requirements:
     - mpich       # [unix]
     - mpi4py      # [unix]
     - pysparse    # [py2k]
-    - petsc4py <3.21   # [unix]
-    - pytrilinos  # [unix and py2k]
+    - petsc4py <3.20.3|>=3.23.0   # [unix]
     - mayavi      # [not (win and py2k)]
   # fipy still doesn't take full advantage of gmsh 4.0, an optional package
   # But gmsh 3 hasn't been built in a long time. 
