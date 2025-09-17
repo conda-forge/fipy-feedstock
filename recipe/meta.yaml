@@ -28,22 +28,12 @@ requirements:
     - matplotlib-base
     - packaging
     - typer
-    - mpich       # [unix]
-    - mpi4py      # [unix]
-    - pysparse    # [py2k]
-    - petsc4py <3.20.3|>=3.23.0   # [unix]
-    - mayavi      # [not (win and py2k)]
-  # fipy still doesn't take full advantage of gmsh 4.0, an optional package
-  # But gmsh 3 hasn't been built in a long time. 
-  # New enough versions of gmsh are compatible with fipy.
-  # to install it.
-  # As it is old, it might have some strange pinnings.
-  run_constrained:
-    - gmsh <4.0|>=4.5.2   # [not (win and py2k)]
 
 test:
   imports:
     - fipy
+  commands:
+    - fipy_test --modules
 
 about:
   home: http://www.ctcms.nist.gov/fipy
