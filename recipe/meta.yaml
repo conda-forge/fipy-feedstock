@@ -19,7 +19,7 @@ requirements:
     - python
     - pip
     - setuptools
-    - versioneer[toml]
+    - versioneer  # [toml]
   run:
     - python
     - numpy
