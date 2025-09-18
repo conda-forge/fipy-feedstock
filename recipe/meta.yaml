@@ -17,12 +17,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
     - setuptools
     - versioneer
   run:
-    - python
+    - python >={{ python_min }}
     - setuptools
     - numpy
     - scipy
@@ -31,6 +31,8 @@ requirements:
     - typer
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - fipy
   commands:
